@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "cryptr": "^6.1.0",
+    "dotenv": "^16.0.3",
+    "email-validator": "^2.0.4",
+    "emoji-regex": "^10.2.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "init": "^0.1.2",
+    "length": "^0.0.1",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20",
+    "router": "^1.3.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.0",
+    "validator": "^13.9.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuruNathan11/SignIn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuruNathan11/SignIn/issues"
+  },
+  "homepage": "https://github.com/GuruNathan11/SignIn#readme",
+  "description": ""
+}
