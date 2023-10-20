@@ -21,8 +21,7 @@ mongo.then(() =>{
 
 var port = process.env.PORT || 8000;
 app.listen(port,() => {console.log("Server running on port "+port)});
-
-// app.use(cors());
+ app.use(cors());
 app.get('/',(req,res) =>  res.send('Welcome to Signin Page'));
 
 app.use('/api/staff',apiRoutes);
